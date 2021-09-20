@@ -1,3 +1,3 @@
 ### Only Designer Section (Desktop)
 
-[Link](www.sarfraz-alam.netlify.app)
+[Link](https://sarfraz-alam.netlify.app/design)
