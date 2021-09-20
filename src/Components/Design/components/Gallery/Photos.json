@@ -1,0 +1,47 @@
+[
+    {
+        "id" : 1,
+        "name" : "Bar",
+        "image": "https://res.cloudinary.com/confused-bachlors/image/upload/v1632057113/sarf_alam_242312769_132160702404537_7307709300130646295_n_qvzevj.jpg"
+    },
+    {
+        "id" : 2,
+        "name" : "Landscape",
+        "image": "https://res.cloudinary.com/confused-bachlors/image/upload/v1632057169/sarf_alam_240770000_1524885917862077_3288578635805033200_n_2_aai4yi.jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "Isometric",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1632057238/sarf_alam_195939646_479032899838580_3026056902760433631_n_1_x1d2ya.jpg"
+    },
+    {
+        "id" : 4,
+        "name" : "Another One",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1632057290/sarf_alam_181049615_171539431531636_6115336336665368409_n_z8mcro.jpg"
+    },
+    {
+        "id" : 5,
+        "name" : "UwU",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1632057334/sarf_alam_209327864_402151377824136_4442683168197558747_n_ndgv8i.jpg"
+    },
+    {
+        "id" : 6,
+        "name" : "Dragon Egg",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1632057382/sarf_alam_160153505_448235273267485_5238832172262145655_n_kae7mg.jpg"
+    },
+    {
+        "id" : 7,
+        "name" : "Sonic",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1632057440/sarf_alam_164769052_275476394070374_6935442374965634433_n_sqxnai.jpg"
+    },
+    {
+        "id" : 8,
+        "name" : "Teddy Day",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1632057476/sarf_alam_147885398_993460151179053_8502636130849869491_n_rgo5y0.jpg"
+    },
+    {
+        "id" : 9,
+        "name" : "Genshin Impact",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1632057518/sarf_alam_145293495_843039242939654_5907786338880992120_n_axoahf.jpg"
+    }
+]

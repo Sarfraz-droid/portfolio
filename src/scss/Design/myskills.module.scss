@@ -1,0 +1,23 @@
+@mixin  Object($x,$y,$font) {
+    position: absolute;
+    margin-top: $y;
+    margin-left: $x;
+    font-size: $font;
+}
+
+
+.MySkills{
+    font-family: 'Monoton';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    h1{
+        font-size: 4rem;
+        font-weight: normal;
+    }
+    .Blender{
+        @include Object(-400px,300px,3.5rem);
+
+    }
+}
