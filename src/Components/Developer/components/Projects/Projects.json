@@ -1,0 +1,50 @@
+[
+    {
+        "id" : 1,
+        "name" : "CampUp",
+        "desc" : "It allows users to find events nearby using geolocation api. It uses Firebase Auth system",
+        "web" : "http://campup-327018.web.app/",
+        "github" : "https://github.com/Sarfraz-droid/CampUp",
+        "image": "https://res.cloudinary.com/confused-bachlors/image/upload/v1633863671/CampUp_oamwh5.png"
+    },
+    {
+        "id" : 2,
+        "name" : "WhatsApp Clone",
+        "desc" : "Chat app made using Socket.io and react.js",
+        "web" : "https://whatsappclone-5d611.web.app/",
+        "github" : "https://github.com/Sarfraz-droid/OnetoOneChatapp",
+        "image": "https://res.cloudinary.com/confused-bachlors/image/upload/v1633863855/WhatsappClone_wz3sms.png"
+    },
+    {
+        "id" : 3,
+        "name" : "Online Compiler IDE",
+        "desc" : "It allows users to compile and run their code using online compiler. Code is saved in Firebase Firestore",
+        "web" : "https://ide-dbb4c.web.app/",
+        "github" : "https://github.com/Sarfraz-droid/online-ide",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1633864215/onlineide_p2plpt.png"
+    },
+    {
+        "id" : 4,
+        "name" : "Ecommerce App",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1633864534/EcommApp_iwkuyx.png",
+        "desc" : "Ecommerce app built in Reactjs. It uses FIrebase and Razorpay payment Gateway",
+        "web" : "https://ecommapp-b1317.web.app/",
+        "github" : "https://github.com/Sarfraz-droid/Ecomm-App"
+    },
+    {
+        "id" : 5,
+        "name" : "eLearning Website",
+        "desc" : "eLearning website buit on React and Firebase",
+        "web" : "https://elearning-4467c.web.app/",
+        "github" : "https://github.com/Sarfraz-droid/eLearning-Website",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1633864980/eLearningWebsite_fll3fr.png"
+    },
+    {
+        "id" : 6,
+        "name" : "Campus Circle",
+        "desc" : "College Circle is a platform where students can stay updated of everything around Campus.",
+        "web" : "http://campuscircle.social/",
+        "github" : "https://github.com/Sarfraz-droid/CampusCircle",
+        "image" : "https://res.cloudinary.com/confused-bachlors/image/upload/v1633865157/campusCircle_ftkzfb.png"
+    }
+]

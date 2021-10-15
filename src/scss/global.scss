@@ -3,3 +3,24 @@ body{
     overflow-x: hidden;
     overflow-y: scroll;
 }
+
+.__json-pretty__{
+    padding: 40px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    border: 3px solid rgb(82, 177, 206);
+}
+
+.recharts-layer{
+    tspan{
+        color: white!important;
+        margin: 20px 0px;
+        font-size: 1.5rem;
+    }
+    
+}
+
+.developer-container{
+    background-color: #252A34;
+
+}

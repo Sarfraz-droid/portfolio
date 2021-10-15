@@ -1,0 +1,53 @@
+.aboutme{
+    width: 100vw;
+    font-family: "Courier New", cursive;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #252A34;
+    .heading{
+        p{
+            font-size: 4rem;
+        }
+    }
+
+    .about{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        .code{
+
+            .run-btn{
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            button{
+                background-color: #252A34;
+                font-family: "Montserrat Alternates", sans-serif;
+                color: #ffffff;
+                border: 2px solid rgb(82, 177, 206);
+                padding: 10px 20px;
+                margin-left: auto;
+                cursor: pointer;
+                transition: all 0.5s ease-in-out;
+                &:hover{
+                    background-color: rgba(82, 177, 206, 0.123);
+                }
+            }
+
+        }
+
+        .photo{
+            
+            img{
+                image-rendering: pixelated;
+                transition: all 1.5s ease-in-out;
+            }
+        }
+    }
+}
