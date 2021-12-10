@@ -1,8 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import { Link, useHistory, useLocation } from "react-router-dom";
 
-import { useMediaQuery } from 'react-responsive'
-
+import { useMediaQuery } from "react-responsive";
 
 //scss
 
@@ -19,7 +18,7 @@ import Box from "../../assets/Landing/Developer/box.svg";
 import animateScroll from "react-scroll/modules/mixins/animate-scroll";
 
 function Home() {
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
   console.log(isTabletOrMobile);
   const Location = useLocation();
   const History = useHistory();
@@ -29,9 +28,11 @@ function Home() {
     developer: false,
     designer: false,
   });
+
   const styles = {
     designhover: {
-      transform: present === "design" ? "translateX(-30%)" : "translateX(-100%)",
+      transform:
+        present === "design" ? "translateX(-30%)" : "translateX(-100%)",
       filter: present === "design" ? "brightness(1)" : "brightness(.6)",
     },
     designFull: {
@@ -57,7 +58,7 @@ function Home() {
         setFull({ ...Full, developer: true });
         break;
       default:
-        setFull({ ...Full, designer: false, developer: false });
+        setFull({ ...Full, designer: true, developer: true });
     }
   }, [Location.pathname]);
 
@@ -68,14 +69,9 @@ function Home() {
         onMouseOver={() => {
           setPresent("design");
         }}
-        style={
-          isTabletOrMobile === false ? 
-          Full.designer ? styles.designFull : styles.designhover
-          : null
-        }
       >
         <div className={landing["design-logo"]}>
-          <img className={landing["logo"]} src={DesignLogo} />
+          <img alt="" className={landing["logo"]} src={DesignLogo} />
           <div className={landing["design-start"]}>
             <button
               onClick={() => {
@@ -86,32 +82,25 @@ function Home() {
               }}
             >
               <span>START HERE</span>
-              <img src={Start} />
+              <img alt="" src={Start} />
             </button>
           </div>
         </div>
 
-        <img className={landing["bg"]} src={Designer} />
+        <img alt="" className={landing["bg"]} src={Designer} />
       </div>
       <div
         className={landing["developer"]}
         onMouseOver={() => {
-          
           setPresent("developer");
         }}
-        style={
-            isTabletOrMobile === false ?   
-          Full.developer
-            ? styles.devFull
-            : Full.designer 
-            ? null
-            : styles.devhover
-            : null
-        }
       >
         <div className={landing["dev-info"]}>
-          <div className={landing["logo"]}>
-            <img className={landing["dev-logo"]} src={DevLogo} />
+          <div className={landing["logo"]} style={{
+            width: "100%",
+            padding: "0",
+          }}>
+            <img alt="" className={landing["dev-logo"]} src={DevLogo} />
             <img className={landing["box"]} src={Box} />
           </div>
 
@@ -128,7 +117,7 @@ function Home() {
             </Link>
           </div>
         </div>
-        <img className={landing["bg"]} src={Developer} />
+        <img className={landing["bg"]} src={Developer} style={{}} />
       </div>
     </div>
   );

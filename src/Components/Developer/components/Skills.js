@@ -8,10 +8,13 @@ import {
   PolarRadiusAxis,
   ResponsiveContainer,
 } from "recharts";
+import { useMediaQuery } from 'react-responsive'
 
 import Download from "../../../assets/Landing/Developer/Download.svg"
 
 function Skills() {
+  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
+
   const data = [
     {
       subject: "ReactJS",
@@ -49,11 +52,11 @@ function Skills() {
         <p>About Me</p>
       </div>
       <RadarChart
-        cx={500}
-        cy={300}
-        outerRadius={250}
-        width={1000}
-        height={600}
+        cx={isTabletOrMobile ? 180 : 500}
+        cy={isTabletOrMobile ? 180 :   300}
+        outerRadius={isTabletOrMobile ? 70 : 250}
+        width={isTabletOrMobile ? 400 : 1000}
+        height={isTabletOrMobile ? 300 : 600}
         data={data}
       >
         <PolarGrid color="#FFFF"/>

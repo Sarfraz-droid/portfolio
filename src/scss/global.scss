@@ -24,3 +24,15 @@ body{
     background-color: #252A34;
 
 }
+
+@media (max-width: 1200px) { 
+
+.recharts-layer{
+    tspan{
+        color: white!important;
+        margin: 20px 0px;
+        font-size: 0.7rem;
+    }
+    
+}
+}
